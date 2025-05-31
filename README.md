@@ -1,1 +1,1 @@
-# Rest_API
+This is a simple RESTful Book API built with Node.js and Express. It allows users to manage a collection of books through basic CRUD operations. You can retrieve all books using GET /books, add new books with POST /books by providing a title and author, update existing books using PUT /books/:id, and delete books with DELETE /books/:id. The API uses in-memory storage, so all data will be lost when the server restarts. To run the project, install the dependencies with npm install and start the server using node index.js,
